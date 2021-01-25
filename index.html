@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+
+        main {
+            width: 800px;
+            border: 2px blue solid;
+            border-radius: 20px;
+            background-color: rgb(206, 214, 206);
+        }
+
+        li {
+            padding: 10px 0;
+            margin-right: 10px;
+            border-bottom: 1px solid rgb(129, 9, 9);
+        }
+
+        li:nth-of-type(5) pre {
+            background-color: rgb(212, 193, 193);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <ol>
+            <li>Pavel Yablonski</li>
+            <li>+375298221949 (telegram), mail: yablonski.pavel81@gmail.com</li>
+            <li>
+                In 2020, I graduated from BSUIR, Faculty of Computer Design, with a degree in electronic security systems design engineer. But I decided to connect my life with web development. Independently studied HTML, CSS. He took courses from the it-academy "Website development using HTML, CSS and JavaScript" and received a corresponding certificate. I'm going to continue to develop in this direction. Now I study JS myself and take courses from the it-academy "Developing web applications in JavaScript».
+                4. JavaScript, MVC, VS Code.
+            </li>
+            <li>JavaScript, MVC, VS Code.</li>
+            <li>
+                <pre>
+function uncompress(str) {
+    let result = "";
+    
+    for (let i = 0; i < str.length; i++) {
+        let number = "";
+
+        while (!isNaN(str[i + 1])) {
+            number += str[i + 1];
+            i++;
+        } 
+
+        if (str.length == 1) {
+            result = str;
+        } else {
+            result += str[i - number.length].repeat(number);
+        }
+
+        number = "";
+    }
+
+    console.log(`"${str}" => "${result}"`);
+}
+                </code>
+            </li>
+            <li>
+                Courses from the it-academy "Website development using HTML, CSS and JavaScript". The final project was the layout of the site 
+                (<a href="https://github.com/Pavel-Yablonski/FD-Project/tree/gh-pages">https://github.com/Pavel-Yablonski/FD-Project/tree/gh-pages</a>).
+            </li>
+            <li>BSUIR, Courses it-academy "Website development using HTML, CSS and JavaScript".</li>
+            <li>A2</li>
+        </ol>
+    </main>
+</body>
+</html>
