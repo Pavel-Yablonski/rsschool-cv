@@ -27,7 +27,7 @@
             console.log(`"${str}" => "${result}"`);
         }
         </script>
-
+    ```
 6. Courses from the it-academy "Website development using HTML, CSS and JavaScript". The final project was the layout of the site (https://github.com/Pavel-Yablonski/FD-Project/tree/gh-pages).
 7. BSUIR, Courses it-academy "Website development using HTML, CSS and JavaScript".
 8. A2
